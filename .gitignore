@@ -2,6 +2,9 @@
 .idea/*
 .idea
 
+# Node
+
+
 # Logs
 logs
 *.log
