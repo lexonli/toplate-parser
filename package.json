@@ -3,9 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "bin/parser.js"
+    "start": "node bin/parser.js"
   },
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.9.14",
+    "puppeteer": "^3.0.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   }
 }

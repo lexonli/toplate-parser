@@ -1,0 +1,1721 @@
+{
+  "pages": {
+    "current": {
+      "name": "restaurant",
+      "pageTitle": "48H Pizza & Gnocchi Bar Reviews, User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+      "pageDescription": "User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne; 48H Pizza & Gnocchi Bar Reviews; 48H Pizza & Gnocchi Bar, Melbourne restaurant reviews on Zomato\n",
+      "resId": 18175359,
+      "pageUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews",
+      "title": "Reviews",
+      "subType": "reviews",
+      "key": "reviews",
+      "ogTitle": "48H Pizza & Gnocchi Bar Reviews, User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+      "ogDescription": "User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne; 48H Pizza & Gnocchi Bar Reviews; 48H Pizza & Gnocchi Bar, Melbourne restaurant reviews on Zomato\n",
+      "ogUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews",
+      "ampHtmlUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews?amp=1",
+      "isFloodReliefRes": false,
+      "isNoIndex": false,
+      "show_rating_v15": false,
+      "isMobile": 0
+    },
+    "restaurant": {
+      "18175359": {
+        "sections": {
+          "SECTION_RATING_HISTOGRAM": {
+            "spam_reviews_text": "23 reviews have been removed for violating Zomato guidelines.",
+            "total_votes_text": "375 reviews",
+            "histogram": [
+              {
+                "rating": 5,
+                "color": "305D02",
+                "color_data": {
+                  "type": "lime",
+                  "tint": "800"
+                },
+                "rating_text": "5 star",
+                "value_text": "52%",
+                "value": 52
+              },
+              {
+                "rating": 4,
+                "color": "5BA829",
+                "color_data": {
+                  "type": "lime",
+                  "tint": "700"
+                },
+                "rating_text": "4 star",
+                "value_text": "33%",
+                "value": 33
+              },
+              {
+                "rating": 3,
+                "color": "CDD614",
+                "color_data": {
+                  "type": "lime",
+                  "tint": "500"
+                },
+                "rating_text": "3 star",
+                "value_text": "6%",
+                "value": 6
+              },
+              {
+                "rating": 2,
+                "color": "FF7800",
+                "color_data": {
+                  "type": "orange",
+                  "tint": "300"
+                },
+                "rating_text": "2 star",
+                "value_text": "5%",
+                "value": 5
+              },
+              {
+                "rating": 1,
+                "color": "CB202D",
+                "color_data": {
+                  "type": "red",
+                  "tint": "600"
+                },
+                "rating_text": "1 star",
+                "value_text": "4%",
+                "value": 4
+              }
+            ],
+            "rating_streak_heading": "Recent ratings trend",
+            "rating_streak": [
+              {
+                "rating": 5,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "800"
+                },
+                "color": "305D02",
+                "timestamp": 1576329667
+              },
+              {
+                "rating": 5,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "800"
+                },
+                "color": "305D02",
+                "timestamp": 1576999868
+              },
+              {
+                "rating": 5,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "800"
+                },
+                "color": "305D02",
+                "timestamp": 1578384173
+              },
+              {
+                "rating": 4,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "700"
+                },
+                "color": "5BA829",
+                "timestamp": 1578667172
+              },
+              {
+                "rating": 4,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "700"
+                },
+                "color": "5BA829",
+                "timestamp": 1579400547
+              },
+              {
+                "rating": 4,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "700"
+                },
+                "color": "5BA829",
+                "timestamp": 1579811254
+              },
+              {
+                "rating": 4,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "700"
+                },
+                "color": "5BA829",
+                "timestamp": 1581135371
+              },
+              {
+                "rating": 1,
+                "color_data": {
+                  "type": "red",
+                  "tint": "600"
+                },
+                "color": "CB202D",
+                "timestamp": 1581430699
+              },
+              {
+                "rating": 5,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "800"
+                },
+                "color": "305D02",
+                "timestamp": 1582301891
+              },
+              {
+                "rating": 4,
+                "color_data": {
+                  "type": "lime",
+                  "tint": "700"
+                },
+                "color": "5BA829",
+                "timestamp": 1589047915
+              }
+            ]
+          },
+          "SECTION_REVIEWS": {
+            "status": "success",
+            "message": "",
+            "entities": [
+              {
+                "entity_type": "REVIEWS",
+                "entity_ids": [
+                  46858219,
+                  46713175,
+                  46673200,
+                  46622971
+                ]
+              }
+            ],
+            "pageReviewsText": "Showing 6-9 of 376 reviews",
+            "numberOfPages": 42,
+            "numberOfReviews": " (376)",
+            "noReviewsText": "",
+            "currentPage": 2,
+            "currentFilter": "reviews-dd",
+            "currentSort": "dd"
+          },
+          "SECTION_IMAGE_CAROUSEL": {
+            "entities": [
+              {
+                "entity_type": "IMAGES",
+                "entity_ids": [
+                  "r_cyOTM3MjEwNDQx",
+                  "r_jkyMDUxOTcwMzA",
+                  "r_zY3NzYwMjk1Mzk",
+                  "r_NDAwMzcMTU1Mzc",
+                  "r_DU0NgNTg5NTAxM",
+                  "r_wOTQyNzY1MTg2N",
+                  "r_g5ODk5ODUyNzE4",
+                  "r_ODEzNzk0NTk0Nz"
+                ]
+              }
+            ],
+            "has_more_photo": true,
+            "obpImage": {
+              "entity_type": "IMAGES",
+              "entity_ids": "r_ODU0MTQ1MDkwND"
+            }
+          },
+          "SECTION_BASIC_INFO": {
+            "res_id": 18175359,
+            "name": "48H Pizza & Gnocchi Bar",
+            "cuisine_string": "Italian, Pizza",
+            "rating": {
+              "has_fake_reviews": 0,
+              "aggregate_rating": "4.4",
+              "rating_text": "4.4",
+              "rating_subtitle": "Very Good",
+              "rating_color": "5BA829",
+              "votes": "375",
+              "subtext": "REVIEWS",
+              "is_new": false
+            },
+            "rating_new": null,
+            "res_status_text": "Open now",
+            "timing": {
+              "timing_desc": "5pm – 9pm (Today)",
+              "customised_timings": {
+                "opening_hours": [
+                  {
+                    "timing": "5pm – 9pm",
+                    "days": "Mon-Sun"
+                  }
+                ]
+              }
+            },
+            "is_delivery_only": 0,
+            "is_perm_closed": false,
+            "is_temp_closed": 0,
+            "is_opening_soon": 0,
+            "is_shelled": false,
+            "media_alert": 0,
+            "learn_more_text": "Learn More",
+            "res_thumb": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/a461ab813daaf411021abde47eef0d33_featured_v2.jpg",
+            "disclaimer_text": "Restaurant operational status or hours may vary. Please contact the restaurant before visiting.",
+            "resUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra"
+          },
+          "SECTION_FEATURE_RAIL": [],
+          "SECTION_RES_HEADER_DETAILS": {
+            "LOCALITY": {
+              "text": "South Yarra",
+              "url": "https://www.zomato.com/melbourne/south-yarra-restaurants"
+            },
+            "CUISINES": [
+              {
+                "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                "url": "https://www.zomato.com/melbourne/restaurants/italian/",
+                "name": "Italian"
+              },
+              {
+                "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                "url": "https://www.zomato.com/melbourne/restaurants/pizza/",
+                "name": "Pizza"
+              }
+            ],
+            "ESTABLISHMENTS": [
+              {
+                "text": "Casual Dining",
+                "title": "View all Casual Dining in Melbourne",
+                "url": "https://www.zomato.com/melbourne/casual-dining"
+              }
+            ]
+          },
+          "SECTION_USER_ACTIONS": {
+            "share": {
+              "url": "http://zoma.to/r/18175359"
+            },
+            "review": {
+              "reviewed": false
+            },
+            "photo": [],
+            "bookmark": {
+              "count": 2644,
+              "bookmarked": false
+            }
+          },
+          "SECTION_RES_CONTACT": {
+            "city_id": 259,
+            "city_name": "Melbourne",
+            "country_id": 14,
+            "country_name": "Australia",
+            "zipcode": "3141",
+            "is_dark_kitchen": false,
+            "locality_verbose": "South Yarra, Melbourne",
+            "latitude": "-37.8474841485",
+            "longitude": "144.9990854412",
+            "static_map_url": "https://maps.zomato.com/php/staticmap?center=-37.8474841485,144.9990854412&maptype=zomato&markers=-37.8474841485,144.9990854412,pin_res32&sensor=false&scale=2&zoom=16&language=en&size=240x150&size=400x240",
+            "address": "373 Malvern Road, South Yarra, Melbourne",
+            "is_phone_available": 1,
+            "phoneDetails": {
+              "title": "Phone Numbers",
+              "phoneStr": "+61398242573"
+            },
+            "res_chain_text": "See all 2 48H Pizza & Gnocchi Bar outlets in Melbourne",
+            "res_group_text": "",
+            "res_chain_url": "https://www.zomato.com/melbourne/restaurants/48h-pizza-gnocchi-bar",
+            "res_group_url": "",
+            "show_res_map": true
+          },
+          "SECTION_RATING_HIGHLIGHTS": [
+            {
+              "title": "Food",
+              "value": 90,
+              "value_text": "90%"
+            },
+            {
+              "title": "Service",
+              "value": 92,
+              "value_text": "92%"
+            },
+            {
+              "title": "Look & Feel",
+              "value": 81,
+              "value_text": "81%"
+            }
+          ],
+          "SECTION_MAGIC_LINKS": [
+            {
+              "title": "Related to 48H Pizza & Gnocchi Bar, South Yarra",
+              "magicLinks": [
+                {
+                  "url": "https://www.zomato.com/melbourne",
+                  "title": "Melbourne Restaurants",
+                  "displayName": "Restaurants in Melbourne, Melbourne Restaurants"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/south-yarra-restaurants",
+                  "title": "South Yarra restaurants",
+                  "displayName": "South Yarra restaurants"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/best-south-yarra-toorak-restaurants",
+                  "title": "Best South Yarra restaurants",
+                  "displayName": "Best South Yarra restaurants"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/inner-south-restaurants",
+                  "title": "Inner South restaurants",
+                  "displayName": "Inner South restaurants"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/casual-dining",
+                  "title": "Casual Dining in Melbourne",
+                  "displayName": "Casual Dining in Melbourne"
+                },
+                {
+                  "url": "https://www.zomato.com/casual-dining-near-me",
+                  "title": "Casual Dining near me",
+                  "displayName": "Casual Dining near me"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/inner-south-restaurants/casual-dining",
+                  "title": "Casual Dining in Inner South",
+                  "displayName": "Casual Dining in Inner South"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/south-yarra-restaurants/casual-dining",
+                  "title": "Casual Dining in South Yarra",
+                  "displayName": "Casual Dining in South Yarra"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne",
+                  "title": " in Melbourne",
+                  "displayName": " in Melbourne"
+                },
+                {
+                  "url": "https://www.zomato.com/restaurants-near-me",
+                  "title": " near me",
+                  "displayName": " near me"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/inner-south-restaurants",
+                  "title": " in Inner South",
+                  "displayName": " in Inner South"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/south-yarra-restaurants",
+                  "title": " in South Yarra",
+                  "displayName": " in South Yarra"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/newyear",
+                  "title": "New Year Parties in Melbourne",
+                  "displayName": "New Year Parties in Melbourne"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/christmas",
+                  "title": "Christmas' Special in Melbourne",
+                  "displayName": "Christmas' Special in Melbourne"
+                }
+              ]
+            },
+            {
+              "title": "Restaurants around South Yarra",
+              "magicLinks": [
+                {
+                  "url": "https://www.zomato.com/melbourne/st-kilda-road-restaurants",
+                  "title": "List of St Kilda Road restaurants",
+                  "displayName": "St Kilda Road restaurants"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/prahran-restaurants",
+                  "title": "List of Prahran restaurants",
+                  "displayName": "Prahran restaurants"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/windsor-restaurants",
+                  "title": "List of Windsor restaurants",
+                  "displayName": "Windsor restaurants"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/richmond-restaurants",
+                  "title": "List of Richmond restaurants",
+                  "displayName": "Richmond restaurants"
+                }
+              ]
+            },
+            {
+              "title": "Frequent searches leading to this page",
+              "magicLinks": [
+                {
+                  "url": "https://www.zomato.com/melbourne/48h-pizza-gnocchi-bar-south-yarra",
+                  "title": "",
+                  "displayName": "48h pizza and gnocchi bar"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/48h-pizza-gnocchi-bar-south-yarra",
+                  "title": "",
+                  "displayName": "48 hours pizza"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/48h-pizza-gnocchi-bar-south-yarra",
+                  "title": "",
+                  "displayName": "48h pizza"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/48h-pizza-gnocchi-bar-south-yarra",
+                  "title": "",
+                  "displayName": "48hours pizza"
+                },
+                {
+                  "url": "https://www.zomato.com/melbourne/48h-pizza-gnocchi-bar-south-yarra",
+                  "title": "",
+                  "displayName": "48h"
+                }
+              ]
+            }
+          ],
+          "SECTION_OBP_TAGS": [],
+          "SECTION_BREADCRUMBS": [
+            {
+              "title": "Home",
+              "url": "https://www.zomato.com"
+            },
+            {
+              "title": "Australia",
+              "url": "https://www.zomato.com/australia"
+            },
+            {
+              "title": "Melbourne",
+              "url": "https://www.zomato.com/melbourne/restaurants"
+            },
+            {
+              "title": "Inner South",
+              "url": "https://www.zomato.com/melbourne/inner-south-restaurants"
+            },
+            {
+              "title": "South Yarra",
+              "url": "https://www.zomato.com/melbourne/south-yarra-restaurants"
+            },
+            {
+              "title": "48H Pizza & Gnocchi Bar",
+              "url": "https://www.zomato.com/melbourne/48h-pizza-gnocchi-bar-south-yarra"
+            },
+            {
+              "title": "48H Pizza & Gnocchi Bar reviews",
+              "url": ""
+            }
+          ]
+        },
+        "navbarSection": [
+          {
+            "name": "restaurant",
+            "pageTitle": " \n48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+            "pageDescription": " \n48H Pizza & Gnocchi Bar Melbourne; 48H Pizza & Gnocchi Bar, South Yarra; Get Menu, Reviews, Contact, Location, Phone Number, Maps and more for 48H Pizza & Gnocchi Bar Restaurant on Zomato\n",
+            "resId": 18175359,
+            "pageUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra",
+            "title": "Overview",
+            "subType": "restaurant",
+            "key": "restaurant",
+            "ogTitle": " \n48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+            "ogDescription": " \n48H Pizza & Gnocchi Bar Melbourne; 48H Pizza & Gnocchi Bar, South Yarra; Get Menu, Reviews, Contact, Location, Phone Number, Maps and more for 48H Pizza & Gnocchi Bar Restaurant on Zomato\n",
+            "ogUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra",
+            "ampHtmlUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra?amp=1",
+            "isFloodReliefRes": false,
+            "isNoIndex": false
+          },
+          {
+            "name": "restaurant",
+            "pageTitle": "48H Pizza & Gnocchi Bar Reviews, User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+            "pageDescription": "User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne; 48H Pizza & Gnocchi Bar Reviews; 48H Pizza & Gnocchi Bar, Melbourne restaurant reviews on Zomato\n",
+            "resId": 18175359,
+            "pageUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews",
+            "title": "Reviews",
+            "subType": "reviews",
+            "key": "reviews",
+            "ogTitle": "48H Pizza & Gnocchi Bar Reviews, User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+            "ogDescription": "User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne; 48H Pizza & Gnocchi Bar Reviews; 48H Pizza & Gnocchi Bar, Melbourne restaurant reviews on Zomato\n",
+            "ogUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews",
+            "ampHtmlUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews?amp=1",
+            "isFloodReliefRes": false,
+            "isNoIndex": false
+          },
+          {
+            "name": "restaurant",
+            "pageTitle": "Order food online and pickup from 48H Pizza & Gnocchi Bar South Yarra | Zomato",
+            "pageDescription": "Order food online and pickup from 48H Pizza & Gnocchi Bar South Yarra with Zomato. Find great meals fast and enjoy Zomato’s takeaway feature.",
+            "resId": 18175359,
+            "pageUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/takeaway",
+            "title": "Takeaway",
+            "subType": "takeaway",
+            "key": "takeaway",
+            "ogTitle": "Order food online and pickup from 48H Pizza & Gnocchi Bar South Yarra | Zomato",
+            "ogDescription": "Order food online and pickup from 48H Pizza & Gnocchi Bar South Yarra with Zomato. Find great meals fast and enjoy Zomato’s takeaway feature.",
+            "ogUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/takeaway",
+            "ampHtmlUrl": "",
+            "isFloodReliefRes": false,
+            "isNoIndex": false
+          },
+          {
+            "name": "restaurant",
+            "pageTitle": "48H Pizza & Gnocchi Bar Menu, Menu for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+            "pageDescription": "48H Pizza & Gnocchi Bar South Yarra Menu - View the Menu for 48H Pizza & Gnocchi Bar Melbourne on Zomato for Delivery, Dine-out or Takeaway, 48H Pizza & Gnocchi Bar menu and prices. 48H Pizza & Gnocchi Bar Menu\n",
+            "resId": 18175359,
+            "pageUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/menu",
+            "title": "Menu",
+            "subType": "menu",
+            "key": "menu",
+            "ogTitle": "48H Pizza & Gnocchi Bar Menu, Menu for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+            "ogDescription": "48H Pizza & Gnocchi Bar South Yarra Menu - View the Menu for 48H Pizza & Gnocchi Bar Melbourne on Zomato for Delivery, Dine-out or Takeaway, 48H Pizza & Gnocchi Bar menu and prices. 48H Pizza & Gnocchi Bar Menu\n",
+            "ogUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/menu",
+            "ampHtmlUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/menu?amp=1",
+            "isFloodReliefRes": false,
+            "isNoIndex": false
+          },
+          {
+            "name": "restaurant",
+            "pageTitle": "48H Pizza & Gnocchi Bar Photos, Pictures of 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+            "pageDescription": "Photos of 48H Pizza & Gnocchi Bar,  South Yarra, Melbourne. 48H Pizza & Gnocchi Bar Pictures, 48H Pizza & Gnocchi Bar Photos\n",
+            "resId": 18175359,
+            "pageUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/photos",
+            "title": "Photos",
+            "subType": "photos",
+            "key": "photos",
+            "ogTitle": "48H Pizza & Gnocchi Bar Photos, Pictures of 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+            "ogDescription": "Photos of 48H Pizza & Gnocchi Bar,  South Yarra, Melbourne. 48H Pizza & Gnocchi Bar Pictures, 48H Pizza & Gnocchi Bar Photos\n",
+            "ogUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/photos",
+            "ampHtmlUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/photos?amp=1",
+            "isFloodReliefRes": false,
+            "isNoIndex": false
+          }
+        ],
+        "hasAds": false,
+        "cartData": {}
+      }
+    },
+    "awards": {
+      "cities": [],
+      "cityWinners": [],
+      "currentCity": {},
+      "loader": false
+    },
+    "user": {},
+    "sauceBlog": {},
+    "Kitchen": {
+      "kitchenApiKey": "",
+      "defaultLat": 0,
+      "defaultLng": 0
+    },
+    "postOrder": {
+      "orderData": {},
+      "deliveryAddressDetails": {},
+      "riderDetails": {
+        "riderName": "",
+        "riderPhone": ""
+      },
+      "restaurantDetails": {},
+      "creatorDetails": {},
+      "deliveryStatus": false,
+      "deliveryMessage": "",
+      "deliveryLabel": "",
+      "status": "",
+      "deliveryTimeStr": "",
+      "pollingStatus": 0,
+      "orderCreationTime": 0,
+      "orderDeliveryTime": 0,
+      "currentStatus": "",
+      "deliveryMode": "",
+      "crystalData": {
+        "items": {}
+      }
+    },
+    "zomaland": {
+      "currentCityId": 0,
+      "pageType": "HOME",
+      "userData": {
+        "tickets": []
+      },
+      "uiStates": {
+        "ticketsModalVisible": false,
+        "showLoader": false,
+        "ticketView": "FULL_TICKET",
+        "galleryIndex": 0,
+        "showTicket": false
+      },
+      "cityLevelData": {},
+      "zomalandPages": {}
+    },
+    "orderOnline": {
+      "paymentDetails": {
+        "payment_method_type": "",
+        "isZcreditsSelected": false
+      },
+      "paymentState": {
+        "checkoutStatus": "IDLE",
+        "errorState": {
+          "code": 0,
+          "errorMessage": ""
+        }
+      },
+      "kitValidationStatus": false,
+      "sectionVerifyPhone": {
+        "allCountryCode": [],
+        "selectedCountryCode": {}
+      }
+    },
+    "pageNotFound": {},
+    "collections": {},
+    "collectionDetails": {},
+    "appDownload": {},
+    "contests": {},
+    "search": {},
+    "singleJob": {},
+    "goldSubscriptionAgreement": {
+      "pageTitle": ""
+    },
+    "zoomBackgrounds": {},
+    "country": {},
+    "tablePostBooking": {},
+    "city": {},
+    "gold": {
+      "plans": [],
+      "customSectionsForCity": [],
+      "orderingRestaurants": [],
+      "dineoutRestaurants": [],
+      "faqs": [],
+      "constants": {
+        "planSectionHeading": "",
+        "faqHeading": "",
+        "aboutGoldText": "",
+        "goldLogoSrc": ""
+      }
+    },
+    "feedingPhilippines": {},
+    "feedingIndonesia": {},
+    "talentHub": {}
+  },
+  "blogData": {
+    "blogs": [],
+    "error": null,
+    "isfetching": null
+  },
+  "pageUrlMappings": {
+    "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews": {
+      "name": "restaurant",
+      "pageTitle": "48H Pizza & Gnocchi Bar Reviews, User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+      "pageDescription": "User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne; 48H Pizza & Gnocchi Bar Reviews; 48H Pizza & Gnocchi Bar, Melbourne restaurant reviews on Zomato\n",
+      "resId": 18175359,
+      "pageUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews",
+      "title": "Reviews",
+      "subType": "reviews",
+      "key": "reviews",
+      "ogTitle": "48H Pizza & Gnocchi Bar Reviews, User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne\n",
+      "ogDescription": "User Reviews for 48H Pizza & Gnocchi Bar, South Yarra, Melbourne; 48H Pizza & Gnocchi Bar Reviews; 48H Pizza & Gnocchi Bar, Melbourne restaurant reviews on Zomato\n",
+      "ogUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews",
+      "ampHtmlUrl": "/melbourne/48h-pizza-gnocchi-bar-south-yarra/reviews?amp=1",
+      "isFloodReliefRes": false,
+      "isNoIndex": false,
+      "show_rating_v15": false,
+      "isMobile": 0
+    }
+  },
+  "careers": {
+    "departments": []
+  },
+  "allJobs": {
+    "openings": [],
+    "filters": []
+  },
+  "department": {},
+  "aboutus": {
+    "leadershipData": []
+  },
+  "sneakpeek": {},
+  "apiState": {},
+  "entities": {
+    "REVIEWS": {
+      "46622971": {
+        "status": "success",
+        "message": "",
+        "reviewId": 46622971,
+        "reviewText": "",
+        "reviewTextSm": "",
+        "userName": "Althea Chen",
+        "userProfilePic": "https://b.zmtcdn.com/data/user_profile_pictures/4bb/b3a5daff5e04eda4ba18bc71b6ed14bb.jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "userProfileUrl": "https://www.zomato.com/users/althea-chen-24154211",
+        "userImagePlaceholder": "https://b.zmtcdn.com/images/placeholder_200.png",
+        "reviewUserId": 24154211,
+        "urbanspoonStatus": 0,
+        "userReviewsCount": 5,
+        "userFollowersCount": 28,
+        "isFollowed": false,
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "isLikedByUser": false,
+        "comments": [],
+        "managementComments": [],
+        "moreManagementComments": false,
+        "commentCount": 0,
+        "moreComments": false,
+        "reviewPhotos": [],
+        "reviewTags": {
+          "entities": [
+            {
+              "entity_type": "TAGS",
+              "entity_ids": [
+                178471
+              ]
+            }
+          ]
+        },
+        "reviewUrl": "https://www.zoma.to/oQgAqDr",
+        "externalUrl": "",
+        "externalHost": "",
+        "externalHostText": "",
+        "isEditable": false,
+        "rating": {
+          "entities": [
+            {
+              "entity_type": "RATING",
+              "entity_ids": [
+                177086236
+              ]
+            }
+          ]
+        }
+      },
+      "46673200": {
+        "status": "success",
+        "message": "",
+        "reviewId": 46673200,
+        "reviewText": "",
+        "reviewTextSm": "",
+        "userName": "Colleen",
+        "userProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "userProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "userImagePlaceholder": "https://b.zmtcdn.com/images/placeholder_200.png",
+        "reviewUserId": 38620631,
+        "urbanspoonStatus": 0,
+        "userReviewsCount": 52,
+        "userFollowersCount": 0,
+        "isFollowed": false,
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "isLikedByUser": false,
+        "comments": [],
+        "managementComments": [],
+        "moreManagementComments": false,
+        "commentCount": 0,
+        "moreComments": false,
+        "reviewPhotos": {
+          "entities": [
+            {
+              "entity_type": "IMAGES",
+              "entity_ids": [
+                "u_ODA3ODY2MjE5OT",
+                "u_Tg1MjAyNjg3NTA",
+                "u_DUxOTk3NzIyMTU",
+                "u_OTQ2Mjc2NjA2MT",
+                "u_Mzg1ODAwOTM2OD",
+                "u_OANjQ4MTA3OTY3",
+                "u_DY0MTg5Mzc0NzU",
+                "u_NTA3NjMzNTc0Mz"
+              ]
+            }
+          ]
+        },
+        "reviewTags": {
+          "entities": [
+            {
+              "entity_type": "TAGS",
+              "entity_ids": [
+                178471,
+                190988,
+                263213
+              ]
+            }
+          ]
+        },
+        "reviewUrl": "https://www.zoma.to/MamDvyw",
+        "externalUrl": "",
+        "externalHost": "",
+        "externalHostText": "",
+        "isEditable": false,
+        "rating": {
+          "entities": [
+            {
+              "entity_type": "RATING",
+              "entity_ids": [
+                177163355
+              ]
+            }
+          ]
+        }
+      },
+      "46713175": {
+        "status": "success",
+        "message": "",
+        "reviewId": 46713175,
+        "reviewText": "",
+        "reviewTextSm": "",
+        "userName": "Jeremy Schiftan",
+        "userProfilePic": "https://b.zmtcdn.com/data/user_profile_pictures/5a1/5a42020a565b75e35cf2cd24d0a925a1.jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "userProfileUrl": "https://www.zomato.com/users/jeremy-schiftan-152103281",
+        "userImagePlaceholder": "https://b.zmtcdn.com/images/placeholder_200.png",
+        "reviewUserId": 152103281,
+        "urbanspoonStatus": 0,
+        "userReviewsCount": 1,
+        "userFollowersCount": 0,
+        "isFollowed": false,
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "isLikedByUser": false,
+        "comments": [],
+        "managementComments": [],
+        "moreManagementComments": false,
+        "commentCount": 0,
+        "moreComments": false,
+        "reviewPhotos": [],
+        "reviewTags": {
+          "entities": [
+            {
+              "entity_type": "TAGS",
+              "entity_ids": [
+                178471
+              ]
+            }
+          ]
+        },
+        "reviewUrl": "https://www.zoma.to/ZPKAxgo",
+        "externalUrl": "",
+        "externalHost": "",
+        "externalHostText": "",
+        "isEditable": false,
+        "rating": {
+          "entities": [
+            {
+              "entity_type": "RATING",
+              "entity_ids": [
+                177225706
+              ]
+            }
+          ]
+        }
+      },
+      "46858219": {
+        "status": "success",
+        "message": "",
+        "reviewId": 46858219,
+        "reviewText": "",
+        "reviewTextSm": "",
+        "userName": "KK",
+        "userProfilePic": "https://b.zmtcdn.com/data/user_profile_pictures/712/5e04d9d9b3fed9f34445bd3ea9b70712.jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "userProfileUrl": "https://www.zomato.com/archloe",
+        "userImagePlaceholder": "https://b.zmtcdn.com/images/placeholder_200.png",
+        "reviewUserId": 3244139,
+        "urbanspoonStatus": 0,
+        "userReviewsCount": 49,
+        "userFollowersCount": 4,
+        "isFollowed": false,
+        "timestamp": "4 months ago",
+        "likeCount": 0,
+        "isLikedByUser": false,
+        "comments": [],
+        "managementComments": [],
+        "moreManagementComments": false,
+        "commentCount": 0,
+        "moreComments": false,
+        "reviewPhotos": {
+          "entities": [
+            {
+              "entity_type": "IMAGES",
+              "entity_ids": [
+                "u_MTY2MTM4MDMwNT",
+                "u_TU3MjE0OTk2Mzc",
+                "u_1ODgzNTM0MTU4N"
+              ]
+            }
+          ]
+        },
+        "reviewTags": {
+          "entities": [
+            {
+              "entity_type": "TAGS",
+              "entity_ids": [
+                518683,
+                518684
+              ]
+            }
+          ]
+        },
+        "reviewUrl": "https://www.zoma.to/baaMLnK",
+        "externalUrl": "",
+        "externalHost": "",
+        "externalHostText": "",
+        "isEditable": false,
+        "rating": {
+          "entities": [
+            {
+              "entity_type": "RATING",
+              "entity_ids": [
+                177447907
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "IMAGES": {
+      "u_MTY2MTM4MDMwNT": {
+        "photoId": "u_MTY2MTM4MDMwNT",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/b50/a282fa8a89d46aa3a67f673c9d1bab50_1577011804.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/b50/a282fa8a89d46aa3a67f673c9d1bab50_1577011804.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "KK",
+        "uploaderProfilePic": "https://b.zmtcdn.com/data/user_profile_pictures/712/5e04d9d9b3fed9f34445bd3ea9b70712.jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/archloe",
+        "timestamp": "4 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "a282fa8a89d46aa3a67f673c9d1bab50"
+      },
+      "u_TU3MjE0OTk2Mzc": {
+        "photoId": "u_TU3MjE0OTk2Mzc",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/8cb/c509ea2e6ce48fbc0bcf01a7e24ff8cb_1577011816.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/8cb/c509ea2e6ce48fbc0bcf01a7e24ff8cb_1577011816.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "KK",
+        "uploaderProfilePic": "https://b.zmtcdn.com/data/user_profile_pictures/712/5e04d9d9b3fed9f34445bd3ea9b70712.jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/archloe",
+        "timestamp": "4 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "c509ea2e6ce48fbc0bcf01a7e24ff8cb"
+      },
+      "u_1ODgzNTM0MTU4N": {
+        "photoId": "u_1ODgzNTM0MTU4N",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/dcc/97d2693503c1316846745d5aef02adcc_1577011816.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/dcc/97d2693503c1316846745d5aef02adcc_1577011816.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "KK",
+        "uploaderProfilePic": "https://b.zmtcdn.com/data/user_profile_pictures/712/5e04d9d9b3fed9f34445bd3ea9b70712.jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/archloe",
+        "timestamp": "4 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "97d2693503c1316846745d5aef02adcc"
+      },
+      "u_ODA3ODY2MjE5OT": {
+        "photoId": "u_ODA3ODY2MjE5OT",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/25d/56fe6b402cd8737f9ab6a323e8c9c25d_1576106984.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/25d/56fe6b402cd8737f9ab6a323e8c9c25d_1576106984.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Colleen",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "56fe6b402cd8737f9ab6a323e8c9c25d"
+      },
+      "u_Tg1MjAyNjg3NTA": {
+        "photoId": "u_Tg1MjAyNjg3NTA",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/476/a8e133e43d39a92433e3ba6aae30d476_1576106985.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/476/a8e133e43d39a92433e3ba6aae30d476_1576106985.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Colleen",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "a8e133e43d39a92433e3ba6aae30d476"
+      },
+      "u_DUxOTk3NzIyMTU": {
+        "photoId": "u_DUxOTk3NzIyMTU",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/1f8/493a6ec584f6d0a9ab6413a98a9651f8_1576106992.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/1f8/493a6ec584f6d0a9ab6413a98a9651f8_1576106992.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Colleen",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "493a6ec584f6d0a9ab6413a98a9651f8"
+      },
+      "u_OTQ2Mjc2NjA2MT": {
+        "photoId": "u_OTQ2Mjc2NjA2MT",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/655/f7f750c61ff7251e0d17d40a2c4ae655_1576106993.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/655/f7f750c61ff7251e0d17d40a2c4ae655_1576106993.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Colleen",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "f7f750c61ff7251e0d17d40a2c4ae655"
+      },
+      "u_Mzg1ODAwOTM2OD": {
+        "photoId": "u_Mzg1ODAwOTM2OD",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/f31/a0fef311337e3a7847648502281d4f31_1576106996.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/f31/a0fef311337e3a7847648502281d4f31_1576106996.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Colleen",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "a0fef311337e3a7847648502281d4f31"
+      },
+      "u_OANjQ4MTA3OTY3": {
+        "photoId": "u_OANjQ4MTA3OTY3",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/330/575d530d271a6e6c5052f3feed9f7330_1576106997.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/330/575d530d271a6e6c5052f3feed9f7330_1576106997.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Colleen",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "575d530d271a6e6c5052f3feed9f7330"
+      },
+      "u_DY0MTg5Mzc0NzU": {
+        "photoId": "u_DY0MTg5Mzc0NzU",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/f0c/693f3cad077048ab520b1c2479174f0c_1576106998.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/f0c/693f3cad077048ab520b1c2479174f0c_1576106998.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Colleen",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "693f3cad077048ab520b1c2479174f0c"
+      },
+      "u_NTA3NjMzNTc0Mz": {
+        "photoId": "u_NTA3NjMzNTc0Mz",
+        "url": "https://b.zmtcdn.com/data/reviews_photos/bc7/b338ebd932d7216d9c9c20f34f330bc7_1576106998.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/reviews_photos/bc7/b338ebd932d7216d9c9c20f34f330bc7_1576106998.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Colleen",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/user_avatars/wine_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A",
+        "uploaderProfileUrl": "https://www.zomato.com/users/colleen-38620631",
+        "timestamp": "5 months ago",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": "b338ebd932d7216d9c9c20f34f330bc7"
+      },
+      "r_ODU0MTQ1MDkwND": {
+        "photoId": "r_ODU0MTQ1MDkwND",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/a461ab813daaf411021abde47eef0d33_featured_v2.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/a461ab813daaf411021abde47eef0d33_featured_v2.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Dec 06, 2018",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      },
+      "r_cyOTM3MjEwNDQx": {
+        "photoId": "r_cyOTM3MjEwNDQx",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/4cf4b32258959bdf79808d9eb214eddc.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/4cf4b32258959bdf79808d9eb214eddc.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Oct 26, 2018",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      },
+      "r_jkyMDUxOTcwMzA": {
+        "photoId": "r_jkyMDUxOTcwMzA",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/6fcbfb09223cac5ec36963778d299ab2.jpeg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/6fcbfb09223cac5ec36963778d299ab2.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Feb 13, 2019",
+        "likeCount": 1,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      },
+      "r_zY3NzYwMjk1Mzk": {
+        "photoId": "r_zY3NzYwMjk1Mzk",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/09d72bd006325605112758faa4e9cbba.jpeg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/09d72bd006325605112758faa4e9cbba.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Feb 13, 2019",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      },
+      "r_NDAwMzcMTU1Mzc": {
+        "photoId": "r_NDAwMzcMTU1Mzc",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/29ad9089d66d960929f83b9cb80cab9a.jpeg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/29ad9089d66d960929f83b9cb80cab9a.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Feb 13, 2019",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      },
+      "r_DU0NgNTg5NTAxM": {
+        "photoId": "r_DU0NgNTg5NTAxM",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/1417d10fc2bd64eb7fb44cb32b8433c3.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/1417d10fc2bd64eb7fb44cb32b8433c3.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Oct 26, 2018",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      },
+      "r_wOTQyNzY1MTg2N": {
+        "photoId": "r_wOTQyNzY1MTg2N",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/66c5ea3907b0ac3f7c660218ce13abab.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/66c5ea3907b0ac3f7c660218ce13abab.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Oct 26, 2018",
+        "likeCount": 1,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      },
+      "r_g5ODk5ODUyNzE4": {
+        "photoId": "r_g5ODk5ODUyNzE4",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/28533ffcd5944295e576fb8fb37922cf.jpeg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/28533ffcd5944295e576fb8fb37922cf.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Feb 13, 2019",
+        "likeCount": 0,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      },
+      "r_ODEzNzk0NTk0Nz": {
+        "photoId": "r_ODEzNzk0NTk0Nz",
+        "url": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/1ef88ad5554b6f11b41a40ccb6cfa695.jpg",
+        "thumbUrl": "https://b.zmtcdn.com/data/pictures/chains/9/18175359/1ef88ad5554b6f11b41a40ccb6cfa695.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "uploaderName": "Zomato",
+        "uploaderProfilePic": "https://b.zmtcdn.com/images/square_zomato_logo_new.svg",
+        "uploaderProfileUrl": "",
+        "timestamp": "Oct 26, 2018",
+        "likeCount": 1,
+        "commentCount": 0,
+        "comments": [],
+        "isLiked": 0,
+        "hash": ""
+      }
+    },
+    "VIDEOS": {},
+    "REVIEW_COMMENTS": {},
+    "REVIEW_REPLIES": {},
+    "PHOTO_COMMENTS": {},
+    "TAGS": {
+      "178471": {
+        "id": 178471,
+        "type": "positive",
+        "text": "woodfire pizza"
+      },
+      "190988": {
+        "id": 190988,
+        "type": "positive",
+        "text": "gnocchi"
+      },
+      "263213": {
+        "id": 263213,
+        "type": "positive",
+        "text": "service, food,excellent"
+      },
+      "518683": {
+        "id": 518683,
+        "type": "positive",
+        "text": "truffled gnocchi"
+      },
+      "518684": {
+        "id": 518684,
+        "type": "positive",
+        "text": "pizza di parma"
+      }
+    },
+    "RATING": {
+      "177086236": {
+        "text": "Excellent",
+        "ratingColor": "#305d02",
+        "ratingId": 177086236,
+        "rating": 5
+      },
+      "177163355": {
+        "text": "Excellent",
+        "ratingColor": "#305d02",
+        "ratingId": 177163355,
+        "rating": 5
+      },
+      "177225706": {
+        "text": "Excellent",
+        "ratingColor": "#305d02",
+        "ratingId": 177225706,
+        "rating": 5
+      },
+      "177447907": {
+        "text": "Excellent",
+        "ratingColor": "#305d02",
+        "ratingId": 177447907,
+        "rating": 5
+      }
+    },
+    "EVENTS": {},
+    "AD_BANNERS": {},
+    "RESTAURANTS": {},
+    "COLLECTIONS": {},
+    "ORDER": {},
+    "ADDRESSES": {},
+    "USER": {},
+    "PENDING_REVIEW": {}
+  },
+  "user": {
+    "currentAddress": {}
+  },
+  "uiLogic": {},
+  "location": {
+    "currentLocation": {
+      "addressId": 0,
+      "entityId": 259,
+      "entityType": "city",
+      "isOrderLocation": 1,
+      "cityId": 259,
+      "latitude": "-37.8136000000000000",
+      "longitude": "144.9631000000000000",
+      "userDefinedLatitude": -37.8136,
+      "userDefinedLongitude": 144.9631,
+      "entityName": "Melbourne",
+      "orderLocationName": "Melbourne",
+      "cityName": "Melbourne, VIC",
+      "countryId": 14,
+      "countryName": "Australia",
+      "displayTitle": "Melbourne",
+      "o2Serviceable": false,
+      "placeId": "ChIJB-CdbLVC1moRZlE1r0AfN1M",
+      "cellId": 0,
+      "deliverySubzoneId": 0,
+      "placeType": "GOOGLE_PLACE",
+      "placeName": "Melbourne",
+      "isO2City": true,
+      "currency": "$"
+    }
+  },
+  "gAds": [],
+  "footer": {
+    "languages": [
+      {
+        "name": "English",
+        "value": "en"
+      },
+      {
+        "name": "Türkçe",
+        "value": "tr"
+      },
+      {
+        "name": "हिंदी",
+        "value": "hi"
+      },
+      {
+        "name": "Português (BR)",
+        "value": "por"
+      },
+      {
+        "name": "Indonesian",
+        "value": "id"
+      },
+      {
+        "name": "Português (PT)",
+        "value": "pt"
+      },
+      {
+        "name": "Español",
+        "value": "es"
+      },
+      {
+        "name": "Čeština",
+        "value": "cs"
+      },
+      {
+        "name": "Slovenčina",
+        "value": "sk"
+      },
+      {
+        "name": "Polish",
+        "value": "pl"
+      },
+      {
+        "name": "Italian",
+        "value": "it"
+      },
+      {
+        "name": "Vietnamese",
+        "value": "vi"
+      }
+    ],
+    "selectedLanguage": {
+      "name": "English",
+      "value": "en"
+    },
+    "linksData": {
+      "companyContent": [
+        {
+          "label": "About",
+          "link": "https://www.zomato.com/about"
+        },
+        {
+          "label": "Blog",
+          "link": "http://blog.zomato.com/"
+        },
+        {
+          "label": "Careers",
+          "link": "https://www.zomato.com/careers"
+        },
+        {
+          "label": "Report Fraud",
+          "link": "https://www.zomato.com/report-fraud"
+        },
+        {
+          "label": "Contact",
+          "link": "https://www.zomato.com/contact"
+        }
+      ],
+      "foodiesContent": [
+        {
+          "label": "Code of Conduct",
+          "link": "https://www.zomato.com/policies"
+        },
+        {
+          "label": "Community",
+          "link": "http://community.zomato.com/"
+        },
+        {
+          "label": "Blogger Help",
+          "link": "https://www.zomato.com/bloggers"
+        },
+        {
+          "label": "Developers",
+          "link": "https://developers.zomato.com/"
+        },
+        {
+          "label": "Mobile Apps",
+          "link": "https://www.zomato.com/mobile"
+        }
+      ],
+      "forYouContent": [
+        {
+          "label": "Privacy",
+          "link": "https://www.zomato.com/privacy"
+        },
+        {
+          "label": "Terms",
+          "link": "https://www.zomato.com/conditions"
+        },
+        {
+          "label": "Security",
+          "link": "https://www.zomato.com/security"
+        },
+        {
+          "label": "Sitemap",
+          "link": "https://www.zomato.com/directory"
+        }
+      ],
+      "restaurantsContent": [
+        {
+          "label": "Add Restaurant",
+          "link": "https://www.zomato.com/addrestaurant"
+        },
+        {
+          "label": "Claim your Listing",
+          "link": "https://www.zomato.com/business"
+        },
+        {
+          "label": "Business App",
+          "link": "https://www.zomato.com/business/apps"
+        },
+        {
+          "label": "Restaurant Widgets",
+          "link": "https://www.zomato.com/business/widgets"
+        },
+        {
+          "label": "Products for Businesses",
+          "link": "https://www.zomato.com/business"
+        }
+      ],
+      "countries": [
+        {
+          "id": 1,
+          "name": "India",
+          "value": "india"
+        },
+        {
+          "id": 14,
+          "name": "Australia",
+          "value": "australia"
+        },
+        {
+          "id": 30,
+          "name": "Brazil",
+          "value": "brazil"
+        },
+        {
+          "id": 37,
+          "name": "Canada",
+          "value": "canada"
+        },
+        {
+          "id": 42,
+          "name": "Chile",
+          "value": "chile"
+        },
+        {
+          "id": 54,
+          "name": "Czech Republic",
+          "value": "czechrepublic"
+        },
+        {
+          "id": 94,
+          "name": "Indonesia",
+          "value": "indonesia"
+        },
+        {
+          "id": 97,
+          "name": "Ireland",
+          "value": "ireland"
+        },
+        {
+          "id": 99,
+          "name": "Italy",
+          "value": "italy"
+        },
+        {
+          "id": 112,
+          "name": "Lebanon",
+          "value": "lebanon"
+        },
+        {
+          "id": 123,
+          "name": "Malaysia",
+          "value": "malaysia"
+        },
+        {
+          "id": 148,
+          "name": "New Zealand",
+          "value": "newzealand"
+        },
+        {
+          "id": 162,
+          "name": "Philippines",
+          "value": "philippines"
+        },
+        {
+          "id": 163,
+          "name": "Poland",
+          "value": "poland"
+        },
+        {
+          "id": 164,
+          "name": "Portugal",
+          "value": "portugal"
+        },
+        {
+          "id": 166,
+          "name": "Qatar",
+          "value": "qatar"
+        },
+        {
+          "id": 184,
+          "name": "Singapore",
+          "value": "singapore"
+        },
+        {
+          "id": 185,
+          "name": "Slovakia",
+          "value": "slovakia"
+        },
+        {
+          "id": 189,
+          "name": "South Africa",
+          "value": "southafrica"
+        },
+        {
+          "id": 191,
+          "name": "Sri Lanka",
+          "value": "srilanka"
+        },
+        {
+          "id": 208,
+          "name": "Turkey",
+          "value": "turkey"
+        },
+        {
+          "id": 214,
+          "name": "UAE",
+          "value": "uae"
+        },
+        {
+          "id": 215,
+          "name": "United Kingdom",
+          "value": "uk"
+        },
+        {
+          "id": 216,
+          "name": "USA",
+          "value": "usa"
+        }
+      ]
+    },
+    "footerDataArray": {
+      "COMPANY": "Company",
+      "FOR_FOODIES": "For Foodies",
+      "FOR_RESTAURANTS": "For Restaurants",
+      "FOR_YOU": "For You",
+      "SOCIAL_LINKS": "Social links"
+    },
+    "disclaimerText": "By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2020 © Zomato™ Media Pvt Ltd. All rights reserved."
+  },
+  "langKeys": {
+    "RES_INFO_TITLE": "About this place",
+    "ADDRESS_TITLE": "Address",
+    "FEATURED_IN_TITLE": "Featured in Collections",
+    "RATE_EXPERIENCE_TITLE": "Tap to rate your experience",
+    "WRITE_REVIEW_TITLE": "Write a Review",
+    "CLEAR_TEXT": "clear",
+    "VIEW_GALLERY": "View Gallery",
+    "OUR_SPONSORS_TITLE": "OUR SPONSORS",
+    "SIMILAR_RES_TITLE": "Similar Restaurants",
+    "HISTOGRAM_TITLE": "Trustworthy Reviews",
+    "HISTOGRAM_DESC": "100% genuine reviews. We weed out all the fake reviews",
+    "HISTOGRAM_TRENDS_TITLE": "Recent ratings trend",
+    "MOST_RECENT": "most recent",
+    "PEOPLE_SAY": "What do people say about this place",
+    "ADD_REVIEW_TITLE": "Add Review",
+    "ORDER_TITLE": "Order Online",
+    "REVIEWS_TITLE": "Reviews",
+    "EVENT_TITLE": "Events",
+    "SEE_ALL_EVENTS_TITLE": "See all events",
+    "CHEF_DETAILS_TITLE": "CHEF DETAILS",
+    "NO_REVIEW_TEXT": "Your ratings and reviews helps people in going a long way in deciding where to eat",
+    "VIEW_ALL_REVIEWS_TITLE": "View all reviews",
+    "CALCULATE_COST_TEXT": "How do we calculate cost for two?",
+    "FILTER_ALL_REVIEWS": "All Reviews",
+    "FILTER_FOLLOWING": "Following",
+    "FILTER_POPULAR": "Popular",
+    "FILTER_MY_REVIEWS": "My Reviews",
+    "FILTER_BLOGGERS_REVIEWS": "Bloggers",
+    "FILTER_ORDER_REVIEWS": "Order Reviews",
+    "SORT_NEWEST_FIRST": "Newest First",
+    "SORT_OLDEST_FIRST": "Oldest First",
+    "SORT_HIGHEST_RATED": "Highest Rated",
+    "SORT_LOWEST_RATED": "Lowest Rated",
+    "POSITIVE_TAGS": "POSITIVE",
+    "NEGATIVE_TAGS": "NEGATIVE",
+    "DAILY_MENU_TITLE": "Daily menu",
+    "DELETE_REVIEW_TEXT": "Are you sure you want to delete this review? This action cannot be undone.",
+    "DIRECTION_TITLE": "Direction",
+    "BOOKMARK_TITLE": "Bookmark",
+    "SHARE_TITLE": "Share",
+    "CALL_TEXT": "Call",
+    "COPY_TEXT": "Copy",
+    "FEATURED_IN_TEXT": "Featured in",
+    "REVIEWS_TEXT": "reviews",
+    "FOLLOWERS_TEXT": "Followers",
+    "FOLLOW_TEXT": "Follow",
+    "LIKES_TEXT": "Likes",
+    "COMMENTS_TEXT": "Comments",
+    "LIKE_TEXT": "Like",
+    "COMMENT_TEXT": "Comment",
+    "LIKED_TEXT": "Liked",
+    "SEE_ALL_MENUS_TEXT": "See all menus",
+    "SEE_FULL_MENU_TEXT": "See full menu",
+    "REVIEW_TITLE": "Reviews",
+    "NO_SEARCH_RESULT_FOUND": "We could not understand what you mean, try rephrasing the query.",
+    "TRENDING_SEARCHES": "Trending Searches",
+    "NO_TRENDING_SEARCH": "No results found for Trending Searches",
+    "TOP_RESTAURANTS": "Top Restaurants",
+    "SEARCH_PLACEHOLDER": "Search for restaurant, cuisine or a dish",
+    "DETECT_LOCATION": "Detect current location",
+    "ADD_ADDRESS": "Add address",
+    "SAVED_ADDRESSES": "Saved Addresses",
+    "POPULAR_LOCATIONS": "Popular Locations",
+    "LOCATION_NO_RESULT_SUB": "Check for spelling errors or search for a nearby location",
+    "LOCATION_NO_RESULT": "No results found",
+    "SEARCH_MODAL_MOBILE_VIEW_TITLE": "Select location",
+    "PROFILE_LINK_NAME": "Profile",
+    "NOTIFICATIONS_LINK_NAME": "Notifications",
+    "BOOKMARKS_LINK_NAME": "Bookmarks",
+    "REVIEWS_LINK_NAME": "Reviews",
+    "NETWORK_LINK_NAME": "Network",
+    "FIND_FRIENDS_LINK_NAME": "Find friends",
+    "SETTINGS_LINK_NAME": "Settings",
+    "LOGOUT_LINK_NAME": "Log out",
+    "LOGIN_FAILED_TITLE": "Login Failed",
+    "SIGNUP_FAILED_TITLE": "Signup Failed",
+    "OTP_VERIFICATION_TITLE": "OTP Verification",
+    "LOGIN_TITLE": "Login",
+    "SIGNUP_TITLE": "Signup",
+    "SIGNUP_NAME_ERROR_MESSAGE": "Please enter a valid name",
+    "SIGNUP_EMPTY_EMAIL_ERROR_MESSAGE": "Please enter an email",
+    "SIGNUP_INVALID_EMAIL_ERROR_MESSAGE": "Invalid Email id",
+    "SIGNUP_PHONE_ERROR_MESSAGE": "Please enter phone number",
+    "SIGNUP_FULL_NAME_LABEL": "Full Name",
+    "SIGNUP_EMAIL_LABEL": "Email",
+    "SIGNUP_PHONE_LABEL": "Phone",
+    "TERMS_OF_SERVICE_TEXT": "Terms of Service",
+    "PRIVACY_POLICY_TEXT": "Privacy Policy",
+    "CONTENT_POLICIES": "Content Policies",
+    "AGREE_TO_ZOMATO_POLICY_TEXT": "I agree to Zomato's {0}, {1} and {2}",
+    "CREATE_ACCOUNT_BUTTON_TEXT": "Create account",
+    "ALREADY_HAVE_AN_ACCOUNT_TEXT": "Already have an account? {0}",
+    "LOGIN_WITH_PHONE_ERROR": "Login with Phone number is not currently available",
+    "NEW_TO_ZOMATO_TEXT": "New to Zomato?",
+    "SEND_OTP_TEXT": "Send One Time Password",
+    "ERROR_MESSAAGE_BOX_TRY_OTHER_METHODS_TEXT": "Try using other methods",
+    "ERROR_MESSAAGE_BOX_SKIP_FOR_NOW_TEXT": "Skip for now",
+    "NEW_OTP_HAS_BEEN_SENT_TEXT": "A new OTP has been sent",
+    "NOT_RECEIVED_OTP_TEXT": "Didn't receive OTP?",
+    "RESEND_NOW_TEXT": "Resend Now",
+    "TERMINATE_VERIFICATION_TEXT": "Are you sure you want to terminate the verification?",
+    "YES_BUTTON_TEXT": "Yes",
+    "NO_BUTTON_TEXT": "No",
+    "CONTINUE_WITH_GOOGLE_BUTTON_TEXT": "Continue with Google",
+    "ERROR_OCCURED_TEXT": "Error occurred",
+    "OR_TEXT": "or"
+  }
+}

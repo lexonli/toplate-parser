@@ -14,11 +14,11 @@ const options = {
 };
 
 
-request(options, function(error, response, body) {
+request(options, (error, response, body) => {
     if (!error && response.statusCode === 200) {
         const info = JSON.parse(body);
         console.log(info);
-        for(var i = 0; i < info.restaurants.length; i++){
+        for(let i = 0; i < info.restaurants.length; i++){
             const rest = {
                 id: info.restaurants[i].restaurant.id,
                 name: info.restaurants[i].restaurant.name,
