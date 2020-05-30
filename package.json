@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node bin/parser.js"
+    "start": "node bin/parser.js",
+    "db": "node bin/db.js"
   },
   "dependencies": {
     "axios": "^0.19.2",

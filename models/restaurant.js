@@ -1,11 +1,20 @@
 const mongoose = require("mongoose");
 
 const restaurantSchema = new mongoose.Schema({
-    restaurant_id: String,
+    _id: String,
     restaurant_name: String,
     hours: String,
-    distance: String,
+    address: {
+        address: String,
+        zipcode: String,
+        latitude: String,
+        longitude: String
+    },
     image: String,
+    ratings: {
+        aggregate_rating: String,
+        votes: String
+    },
     dishes:[{
         type: mongoose.Schema.Types.ObjectId,
         ref: "dish"

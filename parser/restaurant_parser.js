@@ -1,41 +1,89 @@
 const mongoose = require("mongoose");
-
-// import recommendation model
-const Restaurant = mongoose.model("restaurant");
+const axios = require("axios");
+const Restaurant = require("../models/restaurant");
 
 const options = {
-    //should return restaurants in Melbourne
-    //start +20 for each run (by hand
-    url: 'https://developers.zomato.com/api/v2.1/search?entity_id=259&entity_type=city&start=0',
     headers: {
         'Accept': 'application/json',
         'user-key': '784a653a8e5acb40af67554eb5970fb6'
     }
 };
 
+const getURLFromRestaurantData = (restaurantData) => {
+    const zomato_url = restaurantData.restaurant.url;
+    return zomato_url.substr(0, zomato_url.indexOf("?"));
+};
 
-request(options, (error, response, body) => {
-    if (!error && response.statusCode === 200) {
-        const info = JSON.parse(body);
-        console.log(info);
-        for(let i = 0; i < info.restaurants.length; i++){
-            const rest = {
-                id: info.restaurants[i].restaurant.id,
-                name: info.restaurants[i].restaurant.name,
-                hours: info.restaurants[i].restaurant.timings,
-                address: info.restaurants[i].restaurant.location,
-                images: info.restaurants[i].restaurant.photos,
-                ratings: info.restaurants[i].restaurant.user_rating
-            };
-
-            //save to collection
-            Restaurant.collection.insertOne(rest);
-
-
-        }
-
-    } else{
-        console.log("connection error");
-        console.log(error);
+const getRatingsFromRestaurantData = (restaurantData) => {
+    const user_rating = restaurantData.restaurant.user_rating;
+    return {
+        aggregate_rating: user_rating.aggregate_rating,
+        votes: user_rating.votes,
     }
-});
+};
+
+const getAddressFromRestaurantData = (restaurantData) => {
+    const address = restaurantData.restaurant.location;
+    return {
+        address: address.address,
+        zipcode: address.zipcode,
+        latitude: address.latitude,
+        longitude: address.longitude,
+    }
+};
+class RestaurantParser {
+    constructor() {
+        this.numberOfRequests = 5;
+        this.restaurantsPerRequest = 20;
+        this.restaurants = [];
+    }
+
+    parse(db) {
+        for (let i=0; i<this.numberOfRequests; i++) {
+            const start = i * this.restaurantsPerRequest;
+            fetchAndStoreRestaurantsFromStart(start, (restaurants) => {
+                this.numberOfRequests -= 1;
+                this.restaurants = [...this.restaurants, ...restaurants];
+                if (this.numberOfRequests === 0) {
+                    this.store(db)
+                }
+            })
+        }
+    }
+
+    store(db) {
+        Restaurant.insertMany(this.restaurants, {ordered: false}, (err, docs) => {
+            if (err !== null) {
+                console.log(err);
+            }
+            console.log("Fetched ", this.restaurants.length, " restaurants");
+            db.close()
+        });
+    }
+}
+
+const fetchAndStoreRestaurantsFromStart = (start, callback) => {
+    const URL = `https://developers.zomato.com/api/v2.1/search?entity_id=259&entity_type=city&start=${start}`;
+    axios.get(URL, options)
+        .then(data => {
+            const restaurantArray = data.data.restaurants;
+            const restaurants = restaurantArray.map((restaurantData) => {
+                 return  {
+                    _id: restaurantData.restaurant.id,
+                    restaurant_name: restaurantData.restaurant.name,
+                    hours: restaurantData.restaurant.timings,
+                    address: getAddressFromRestaurantData(restaurantData),
+                    image: restaurantData.restaurant.featured_image,
+                    ratings: getRatingsFromRestaurantData(restaurantData),
+                    zomato_url: getURLFromRestaurantData(restaurantData),
+                };
+            });
+            callback(restaurants);
+        })
+        .catch(err => {
+            console.log(err);
+            console.log("fail")
+        });
+};
+
+module.exports = RestaurantParser;
