@@ -1,4 +1,3 @@
-require("../models");
 const axios = require("axios");
 
 module.exports = class ReviewParser {
@@ -8,6 +7,7 @@ module.exports = class ReviewParser {
     }
 
     parseReviews(restaurantUrl, callback) {
+        this.reviews = [];
         setup(restaurantUrl, (numberOfPages) => {
             this.numberOfPages = numberOfPages;
             //note: pages start at 1

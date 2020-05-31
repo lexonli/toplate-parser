@@ -11,6 +11,7 @@ const restaurantSchema = new mongoose.Schema({
         longitude: String
     },
     image: String,
+    zomato_url: String,
     ratings: {
         aggregate_rating: String,
         votes: String
@@ -22,6 +23,9 @@ const restaurantSchema = new mongoose.Schema({
     recommendations: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: "recommendation"
+    }],
+    reviews: [{
+        type: String
     }]
 });
 

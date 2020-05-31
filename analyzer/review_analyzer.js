@@ -1,16 +1,38 @@
-//receives an array of reviews and reviews
-require('../models');
+const Restaurant = require("../models/restaurant");
 
-console.log("review_analyzer initialized");
+const MIN_REVIEWS = 5;
 
-exports.getCategories = () => {
-    try {
-        Category
-            .find({})
-            .exec(function (err, categories) {
-                console.log(categories)
-            });
-    } catch (err) {
-        console.log("Database query failed");
+class ReviewAnalyzer {
+    constructor(restaurant) {
+        this.restaurant = restaurant;
+    }
+
+    hasValidReviews() {
+
+    }
+}
+
+const hasValidReviews = (restaurant) => {
+    if (restaurant.reviews.length <= MIN_REVIEWS) {
+        return false;
     }
 };
+
+const getRegex = (categories) => {
+    new RegExp(categori);
+};
+
+const analyzeRestaurant = (restaurant, categories) => {
+    const PAGE_DATA_REGEX = new RegExp("window\\.__PRELOADED_STATE__ = JSON\\.parse\\((\".+\")\\)");
+    const CAPTURING_GROUP = 1;
+
+//successful callback will return json data, you can have a look at example_parseReviewPage_result.json
+    const parseReviewPage = (url, callback) => {
+        axios.get(url)
+            .then(data => {
+                let matches = data.data.matchAll(PAGE_DATA_REGEX);
+                let match = matches.next().value;
+                let matchedData = match[CAPTURING_GROUP];
+                callback(JSON.parse(JSON.parse(matchedData)), null)
+
+            };

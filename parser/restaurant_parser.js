@@ -34,25 +34,29 @@ const getAddressFromRestaurantData = (restaurantData) => {
 class RestaurantParser {
     constructor() {
         this.numberOfRequests = 5;
+        this.remainingRequests = 0;
         this.restaurantsPerRequest = 20;
         this.restaurants = [];
     }
 
     parse(db) {
+        this.remainingRequests = this.numberOfRequests;
         for (let i=0; i<this.numberOfRequests; i++) {
             const start = i * this.restaurantsPerRequest;
             fetchAndStoreRestaurantsFromStart(start, (restaurants) => {
-                this.numberOfRequests -= 1;
+                this.remainingRequests -= 1;
                 this.restaurants = [...this.restaurants, ...restaurants];
-                if (this.numberOfRequests === 0) {
-                    this.store(db)
+                console.log(restaurants.length);
+                console.log(this.remainingRequests);
+                if (this.remainingRequests === 0) {
+                    this.store(db);
                 }
             })
         }
     }
 
     store(db) {
-        Restaurant.insertMany(this.restaurants, {ordered: false}, (err, docs) => {
+        Restaurant.insertMany(this.restaurants, {ordered: false}, (err) => {
             if (err !== null) {
                 console.log(err);
             }
@@ -63,7 +67,7 @@ class RestaurantParser {
 }
 
 const fetchAndStoreRestaurantsFromStart = (start, callback) => {
-    const URL = `https://developers.zomato.com/api/v2.1/search?entity_id=259&entity_type=city&start=${start}`;
+    const URL = `https://developers.zomato.com/api/v2.1/search?entity_id=259&entity_type=city&start=${start}&count=20`;
     axios.get(URL, options)
         .then(data => {
             const restaurantArray = data.data.restaurants;
