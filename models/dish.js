@@ -1,19 +1,18 @@
 const mongoose = require("mongoose");
 
-//TODO: Modify dishSchema (currently unused)
 const dishSchema = new mongoose.Schema({
-    dish_id: String,
+    _id: String,
     dish_name: String,
-    food: [{
+    food: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "food"
-    }],
-    restaurant: [{
-        type: mongoose.Schema.Types.ObjectId,
+    },
+    restaurant: {
+        type: String,
         ref: "restaurant"
-    }],
+    },
     rating: Number,
-    image: String
+    image_url: String
 });
 
 

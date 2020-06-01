@@ -1,6 +1,7 @@
 require("../config");
 const Category = require("../models/category");
 const Restaurant = require("../models/restaurant");
+const ReviewAnalyzer = require("../analyzer/review_analyzer");
 const mongoose = require("mongoose");
 
 mongoose.connect(MONGO_URL, {
@@ -45,7 +46,9 @@ const getRestaurants = (callback) => {
 
 db.once("open", async () => {
     getCategories((categories) => {
-        console.log(categories);
-
+        getRestaurants((restaurants) => {
+            const reviewAnalyzer = new ReviewAnalyzer(restaurants, categories);
+            reviewAnalyzer.analyze(db);
+        });
     });
 });

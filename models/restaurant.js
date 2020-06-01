@@ -17,8 +17,13 @@ const restaurantSchema = new mongoose.Schema({
         votes: String
     },
     dishes:[{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "dish"
+        dish_id: String,
+        dish_name: String,
+        food: String,
+        rating: String,
+        restaurant_id: String,
+        restaurant_name: String,
+        image_url: String
     }],
     recommendations: [{
         type: mongoose.Schema.Types.ObjectId,
