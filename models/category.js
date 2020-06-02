@@ -7,11 +7,11 @@ const categorySchema = new mongoose.Schema({
         type: mongoose.Schema.Types.String
     }],
     dishes: [{
-        dish_id: String,
+        dish_id: mongoose.Schema.Types.ObjectId,
         dish_name: String,
         food: String,
         rating: Number,
-        restaurant_id: String,
+        restaurant_id: mongoose.Schema.Types.ObjectId,
         restaurant_name: String,
         image_url: String
     }]

@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 
 const top20dishesSchema = new mongoose.Schema({
-    dish_id: String,
+    dish_id: mongoose.Schema.Types.ObjectId,
     dish_name: String,
     rating: Number,
-    restaurant_id: String,
+    restaurant_id: mongoose.Schema.Types.ObjectId,
     restaurant_name: String,
     image_url: String
 });

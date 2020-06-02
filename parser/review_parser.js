@@ -15,7 +15,10 @@ module.exports = class ReviewParser {
                 parseSinglePageReview(restaurantUrl, page, (reviewData, error) => {
                     this.numberOfPages -= 1;
                     if (error === null) {
-                        let reviews = Object.values(reviewData).map((review) => review.reviewText);
+                        let reviews = Object
+                            .values(reviewData)
+                            .map((review) => review.reviewText)
+                            .filter(review => review !== "");
                         this.reviews.push(...reviews);
                     } else {
                         console.log(`Parsing ${restaurantUrl} at ${page} got error: ${error}`)

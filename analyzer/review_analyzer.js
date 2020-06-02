@@ -4,7 +4,6 @@ const Dish = require("../models/dish");
 const AhoCorasick = require('ahocorasick');
 const Sentiment = require('sentiment');
 const mongoose = require('mongoose');
-const { v4: uuidv4 } = require('uuid');
 
 class ReviewAnalyzer {
     constructor(restaurants, categories) {
@@ -78,11 +77,11 @@ class ReviewAnalyzer {
         for (const [dish, scores] of Object.entries(dishToScores)) {
             const foodId = this.mapper[dish].foodId;
             let dishObject = {
-                dish_id: uuidv4(),
+                dish_id: mongoose.Types.ObjectId(),
                 dish_name: dish,
-                food: foodId,
+                food: mongoose.Types.ObjectId(foodId),
                 rating: getAvg(scores),
-                restaurant_id: restaurant._id,
+                restaurant_id: mongoose.Types.ObjectId(restaurant._id),
                 restaurant_name: restaurant.restaurant_name,
                 image_url: restaurant.image
             };
@@ -136,7 +135,16 @@ class ReviewAnalyzer {
     }
 
     storeIntoRestaurantCollection(restaurant, restaurantDishes, callback) {
-        Restaurant.updateOne({ _id: restaurant._id}, {dishes: restaurantDishes}, (err, res) => {
+        let cleanedDishes = restaurantDishes.map((dish) => {
+            return {
+                _id: dish.dish_id,
+                dish_name: dish.dish_name,
+                food: mongoose.Types.ObjectId(dish.food_id),
+                rating: dish.rating,
+                image_url: dish.image_url,
+            }
+        });
+        Restaurant.updateOne({ _id: restaurant._id}, {dishes: cleanedDishes}, (err, res) => {
             if (err != null) {
                 console.log(err);
             }

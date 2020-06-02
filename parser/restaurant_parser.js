@@ -46,8 +46,6 @@ class RestaurantParser {
             fetchAndStoreRestaurantsFromStart(start, (restaurants) => {
                 this.remainingRequests -= 1;
                 this.restaurants = [...this.restaurants, ...restaurants];
-                console.log(restaurants.length);
-                console.log(this.remainingRequests);
                 if (this.remainingRequests === 0) {
                     this.store(db);
                 }
@@ -73,7 +71,8 @@ const fetchAndStoreRestaurantsFromStart = (start, callback) => {
             const restaurantArray = data.data.restaurants;
             const restaurants = restaurantArray.map((restaurantData) => {
                  return  {
-                    _id: restaurantData.restaurant.id,
+                    _id: mongoose.Types.ObjectId(),
+                    zomato_id: restaurantData.restaurant.id,
                     restaurant_name: restaurantData.restaurant.name,
                     hours: restaurantData.restaurant.timings,
                     address: getAddressFromRestaurantData(restaurantData),

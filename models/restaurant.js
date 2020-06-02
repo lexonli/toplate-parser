@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 const restaurantSchema = new mongoose.Schema({
-    _id: String,
+    _id: mongoose.Schema.Types.ObjectId,
+    zomato_id: String,
     restaurant_name: String,
     hours: String,
     address: {
@@ -17,12 +18,10 @@ const restaurantSchema = new mongoose.Schema({
         votes: String
     },
     dishes:[{
-        dish_id: String,
+        _id: mongoose.Schema.Types.ObjectId,
         dish_name: String,
-        food: String,
+        food: mongoose.Schema.Types.ObjectId,
         rating: String,
-        restaurant_id: String,
-        restaurant_name: String,
         image_url: String
     }],
     recommendations: [{

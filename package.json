@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node bin/parser.js",
-    "db": "node bin/db.js"
+    "parse-restaurant": "node bin/parse_restaurant.js",
+    "parse-review": "node bin/parse_review.js",
+    "analyze-review": "node bin/analyze_review.js"
   },
   "dependencies": {
     "ahocorasick": "^1.0.2",
@@ -17,7 +18,6 @@
     "puppeteer": "^3.0.4",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
-    "sentiment": "^5.0.2",
-    "uuid": "^8.1.0"
+    "sentiment": "^5.0.2"
   }
 }
