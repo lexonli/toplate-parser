@@ -1,3 +1,8 @@
+/*
+ This script analyzes the data from category, finds the best dishes for each food,
+ then populates the Food collection
+ */
+
 const Food = require("../models/food");
 
 const analyze_food = (db, categories) => {
