@@ -12,7 +12,7 @@ class ReviewAnalyzer {
         this.foodDishes = categories.reduce((total, category) => {
             return [...total, ...category.food_dishes]
         }, []);
-        this.ac = new AhoCorasick(this.foodDishes);
+        this.ac = new AhoCorasick(this.foodDishes.map(dish => dish.toLowerCase()));
         this.sentiment = new Sentiment();
         //food structure (foodId : [Dish])
         this.food = {};
@@ -80,7 +80,7 @@ class ReviewAnalyzer {
                 dish_id: mongoose.Types.ObjectId(),
                 dish_name: dish,
                 food: mongoose.Types.ObjectId(foodId),
-                rating: getAvg(scores),
+                rating: Math.round(getAvg(scores)),
                 restaurant_id: mongoose.Types.ObjectId(restaurant._id),
                 restaurant_name: restaurant.restaurant_name,
                 image_url: restaurant.image
@@ -168,7 +168,7 @@ const buildMapper = (categories) => {
     let mapper = {};
     categories.forEach((category) => {
         category.food_dishes.forEach((dish) => {
-            mapper[dish] = {"foodId": category._id, "foodName": category.food_name};
+            mapper[dish.toLowerCase()] = {"foodId": category._id, "foodName": category.food_name};
         })
     });
     return mapper
