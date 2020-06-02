@@ -44,12 +44,18 @@ class ReviewAnalyzer {
         });
     }
 
+    reviewScore(review) {
+        const comparative = this.sentiment.analyze(review).comparative;
+        let score = Math.min((comparative*10 + 5) * 5, 50);
+        return score < 0 ? 0 : score;
+    }
+
     getDishScoresFromReviews(reviews) {
         let dishToScores = {};
         reviews.forEach((review) => {
             const result = this.ac.search(review.toLowerCase());
             if (result.length > 0) {
-                const score = this.sentiment.analyze(review).score;
+                const score = this.reviewScore(review);
                 result.forEach((match) => {
                     let dish = match[1][0];
                     if (dishToScores.hasOwnProperty(dish)) {
