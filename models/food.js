@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const top20dishesSchema = new mongoose.Schema({
-    dish_id: String,
+    _id: mongoose.Schema.Types.ObjectId,
     dish_name: String,
     rating: Number,
     restaurant_id: mongoose.Schema.Types.ObjectId,
@@ -10,7 +10,7 @@ const top20dishesSchema = new mongoose.Schema({
 });
 
 const foodSchema = new mongoose.Schema({
-    food_id: String,
+    _id: mongoose.Schema.Types.ObjectId,
     food_name: String,
     top_20_dishes: [top20dishesSchema]
 });

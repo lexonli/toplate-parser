@@ -1,34 +1,11 @@
-require("../config");
+/*
+ This script crawls Zomato for reviews for every restaurant we obtain from our own database and stores those
+ reviews into our database
+ */
+
+const { useDB, getRestaurants } = require("./db");
 const Restaurant = require("../models/restaurant");
-const mongoose = require("mongoose");
 const ReviewParser = require("../parser/review_parser");
-
-mongoose.connect(MONGO_URL, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false,
-    dbName: DB_NAME
-});
-
-const db = mongoose.connection;
-db.on("error", err => {
-    console.error(err);
-    process.exit(1);
-});
-
-const getRestaurants = (callback) => {
-    try {
-        Restaurant
-            .find({})
-            .exec(function (err, restaurants) {
-                callback(restaurants)
-            });
-    } catch (err) {
-        console.log(err);
-        console.log("Database query failed");
-    }
-};
 
 function startTimer(restaurant, callback) {
     //put 10 seconds between crawls
@@ -47,7 +24,7 @@ const parseRestaurantReviews = (restaurant, callback) => {
     });
 };
 
-const recurse_restaurants = (restaurants, i) => {
+const recurse_restaurants = (db, restaurants, i) => {
     startTimer(restaurants[i], () => {
         console.log("Parsed reviews of ", i+1, " restaurants");
         i += 1;
@@ -59,9 +36,9 @@ const recurse_restaurants = (restaurants, i) => {
     });
 };
 
-db.once("open", async () => {
+useDB((db) => {
     //for each restaurant, we parse and store their reviews
     getRestaurants((restaurants) => {
-        recurse_restaurants(restaurants, 0);
+        recurse_restaurants(db, restaurants, 0);
     });
 });

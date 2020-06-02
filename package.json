@@ -5,7 +5,8 @@
   "scripts": {
     "parse-restaurant": "node bin/parse_restaurant.js",
     "parse-review": "node bin/parse_review.js",
-    "analyze-review": "node bin/analyze_review.js"
+    "analyze-review": "node bin/analyze_review.js",
+    "analyze-food": "node bin/analyze_food.js"
   },
   "dependencies": {
     "ahocorasick": "^1.0.2",

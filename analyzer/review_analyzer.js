@@ -126,11 +126,13 @@ class ReviewAnalyzer {
                 image_url: dish.image_url,
             }
         });
-        Dish.insertMany(cleanedDishes, (err, docs) => {
-            if (err != null) {
-                console.log(err);
-            }
-            callback()
+        Dish.deleteMany({}, (err, docs) => {
+            Dish.insertMany(cleanedDishes, (err, docs) => {
+                if (err != null) {
+                    console.log(err);
+                }
+                callback()
+            })
         })
     }
 
