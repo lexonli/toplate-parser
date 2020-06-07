@@ -10,10 +10,14 @@ const analyze_food = (db, categories) => {
         let foods = categories.map((category) => {
             category.dishes
                 .sort((a, b) => { return (b.rating - a.rating) });
+            let top_dishes = category.dishes.slice(0, 20)
+            top_dishes.forEach((dish) => {
+                dish._id = dish.dish_id;
+            });
             return {
                 _id: category._id,
                 food_name: category.food_name,
-                top_20_dishes: category.dishes.slice(0, 20)
+                top_20_dishes: top_dishes
             }
         });
         Food.insertMany(foods, (err, docs) => {
